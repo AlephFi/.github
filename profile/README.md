@@ -17,10 +17,8 @@ Aleph is a financial infrastructure for uncorrelated yield strategies, connectin
 
 ## Overview
 
-Aleph Vault tokenizes off-chain yield strategies into asynchronous vaults, deriving their value from the underlying NAV.
+Aleph Vault wraps yield strategies into asynchronous and synchronous vaults, deriving their value from the underlying NAV.
 The system simplifies complex operations for managers and allocators, handles whitelisting, subscriptions, Classes and Series, HWM, fee accrual, and capital distribution.
-
-Aleph Vault operates as a settlement-based system; deposits/redemptions are settled only after a new NAV is published. The vault manager initiates NAV updates and settlement cycles, and the whitelisted vault is used as the “subscription escrow”.
 
 ### Features
 - Customization: apply custom parameters for subscription, fee logic, and other key controls. 
@@ -32,9 +30,6 @@ Aleph Vault operates as a settlement-based system; deposits/redemptions are sett
 
 ## 🏗️ Architecture
 
-<img width="1868" height="755" alt="Aleph Architecture" src="https://github.com/user-attachments/assets/159f0d2a-e47c-4afb-b4f6-7eb32636dce2" />
-
-### Core Components
 
 ```mermaid
 graph TB
